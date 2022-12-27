@@ -7,6 +7,13 @@ func main() {
 	fmt.Println(name)
 
 	const firstName = "ulil albab"
-	// fmt.Println(firstName)
+	fmt.Println(firstName)
+
+	// It's declaring multiple constants.
+	const (
+		age     = 10
+		address = "address"
+	)
+	fmt.Println(age, address)
 
 }
